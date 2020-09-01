@@ -46,7 +46,7 @@ class Timeline extends StatelessWidget
               Padding(
                 padding: const EdgeInsets.only(top: 30.0),
                 child: Text(
-                    "1st September, 2020",
+                    "21st September, 2020",
                   style: TextStyle(
                     color: Colors.blueGrey[200],
                     fontFamily: 'Merriweather',
@@ -128,7 +128,7 @@ class Timeline extends StatelessWidget
                       padding: const EdgeInsets.only(left: 15.0),
                       child: Text(
                         "Motivational Speaker Session by "
-                            "\nAzim Ibraheem",
+                            "\nAzam Ibraheem",
                         overflow: TextOverflow.ellipsis,
                         style: TextStyle(
                             color: Colors.blueGrey[200],
@@ -379,7 +379,7 @@ class Timeline extends StatelessWidget
               Padding(
                 padding: const EdgeInsets.only(top: 30.0),
                 child: Text(
-                  "2nd September, 2020",
+                  "22nd September, 2020",
                   style: TextStyle(
                       color: Colors.blueGrey[200],
                       fontFamily: 'Merriweather',
@@ -711,7 +711,7 @@ class Timeline extends StatelessWidget
               Padding(
                 padding: const EdgeInsets.only(top: 30.0),
                 child: Text(
-                  "3rd September, 2020",
+                  "23rd September, 2020",
                   style: TextStyle(
                       color: Colors.blueGrey[200],
                       fontFamily: 'Merriweather',
@@ -1137,7 +1137,7 @@ class Timeline extends StatelessWidget
               Padding(
                 padding: const EdgeInsets.only(top: 30.0),
                 child: Text(
-                  "4th September, 2020",
+                  "24th September, 2020",
                   style: TextStyle(
                       color: Colors.blueGrey[200],
                       fontFamily: 'Merriweather',
@@ -1469,7 +1469,7 @@ class Timeline extends StatelessWidget
               Padding(
                 padding: const EdgeInsets.only(top: 30.0),
                 child: Text(
-                  "5th September, 2020",
+                  "25th September, 2020",
                   style: TextStyle(
                       color: Colors.blueGrey[200],
                       fontFamily: 'Merriweather',
@@ -1754,7 +1754,7 @@ class Timeline extends StatelessWidget
               Padding(
                 padding: const EdgeInsets.only(top: 30.0),
                 child: Text(
-                  "6th September, 2020",
+                  "26th September, 2020",
                   style: TextStyle(
                       color: Colors.blueGrey[200],
                       fontFamily: 'Merriweather',
@@ -2227,7 +2227,7 @@ class Timeline extends StatelessWidget
               Padding(
                 padding: const EdgeInsets.only(top: 30.0),
                 child: Text(
-                  "7th September, 2020",
+                  "27th September, 2020",
                   style: TextStyle(
                       color: Colors.blueGrey[200],
                       fontFamily: 'Merriweather',
@@ -2262,7 +2262,7 @@ class Timeline extends StatelessWidget
                     Padding(
                       padding: const EdgeInsets.only(left: 15.0),
                       child: Text(
-                        "Result Announcement of \nINK-POOL on our Socail media",
+                        "Result Announcement of \nINK-POOL on our Social Media",
                         style: TextStyle(
                             color: Colors.blueGrey[200],
                             fontWeight: FontWeight.bold,

@@ -57,6 +57,16 @@ flutter:
     - assets/landing.png
     - assets/logo.png
     - assets/1escort.jpeg
+    - assets/prizes/Dot.jpg
+    - assets/prizes/dots.jpg
+    - assets/prizes/h2r.png
+    - assets/sponsors/souledstore.jpg
+    - assets/sponsors/expertrons.png
+    - assets/sponsors/cakecity.png
+    - assets/sponsors/weredoo.png
+    - assets/sponsors/sms.png
+    - assets/sponsors/sans.png
+    - assets/schaffenlogo.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

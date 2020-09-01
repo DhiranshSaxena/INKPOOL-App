@@ -6,3 +6,17 @@ Padding(
                   color: Colors.blueGrey[200]
               ),
             ),
+
+Padding(
+                                padding: const EdgeInsets.only(top: 10.0),
+                                child: Text(
+                                  "Mi Ear Dots for \nSecond Runner Up",
+                                  textAlign: TextAlign.center,
+                                  style: TextStyle(
+                                    fontWeight: FontWeight.bold,
+                                    color: Colors.blueGrey[200],
+                                    fontSize: 20,
+
+                                  ),
+                                ),
+                              )

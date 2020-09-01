@@ -3,7 +3,10 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:inkpool/Participants/about.dart';
 import 'package:inkpool/Participants/dashboard.dart';
 import 'package:inkpool/Participants/escort.dart';
+import 'package:inkpool/Participants/prizes.dart';
 import 'package:inkpool/Participants/schaffenabout.dart';
+import 'package:inkpool/Participants/partners.dart';
+import 'package:inkpool/Participants/sponsors.dart';
 import 'package:inkpool/Participants/timeline.dart';
 import 'package:inkpool/services/helper.dart';
 import 'package:inkpool/services/userdata.dart';
@@ -101,7 +104,7 @@ class BottomSheetIP extends StatelessWidget {
                   ),
                   ListTile(
                     title: Text(
-                      "Our Sponsors",
+                      "Our Partners",
                       style: TextStyle(
                           fontFamily: 'Merriweather',
                           fontSize: 18,
@@ -113,7 +116,25 @@ class BottomSheetIP extends StatelessWidget {
                     ),
                     onTap: () {
                       Navigator.of(context).push(MaterialPageRoute(
-                        builder: (context) => About(),
+                        builder: (context) => Partners(),
+                      ));
+                    },
+                  ),
+                  ListTile(
+                    title: Text(
+                      "Our Sponsors",
+                      style: TextStyle(
+                          fontFamily: 'Merriweather',
+                          fontSize: 18,
+                          color: Colors.blueGrey[200]),
+                    ),
+                    trailing: Icon(
+                      FontAwesomeIcons.moneyBill,
+                      color: Colors.blueGrey[200],
+                    ),
+                    onTap: () {
+                      Navigator.of(context).push(MaterialPageRoute(
+                        builder: (context) => Sponsors(),
                       ));
                     },
                   ),
@@ -131,7 +152,7 @@ class BottomSheetIP extends StatelessWidget {
                     ),
                     onTap: () {
                       Navigator.of(context).push(MaterialPageRoute(
-                        builder: (context) => About(),
+                        builder: (context) => Prizes(),
                       ));
                     },
                   ),

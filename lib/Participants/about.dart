@@ -154,7 +154,7 @@ class About extends StatelessWidget
                 padding: const EdgeInsets.only(top: 15.0, left: 15, right: 15, bottom: 20),
                 child: Container(
                   child: Text(
-                    "A complete imagination based task where you need to start from a line given to you. After 4 hours a new line will be generated and you have to link your story. Again after 4 hours a final line would be given and then you have to complete your story. Keeping in my that it makes a sense as a whole.",
+                    "A complete imagination based task where you need to start from a line given to you. After 3 hours a new line will be generated and you have to link your story. Again after 3 hours a final line would be given and then you have to complete your story with that line. Keeping in my that it makes a sense as a whole.",
                     style: TextStyle(
                       fontSize: 17,
                       fontFamily: 'Merriweather',
